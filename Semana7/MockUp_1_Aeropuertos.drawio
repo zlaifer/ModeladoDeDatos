@@ -1,0 +1,79 @@
+<mxfile host="Electron" modified="2024-07-20T22:48:00.030Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.5.3 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="9oMeOxf6nhC6YPsylvhN" version="24.5.3" type="device">
+  <diagram name="Página-1" id="BBzUHen2Qhlq5UasKaST">
+    <mxGraphModel dx="2074" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="B0-4m4QxxyVWOv-KZU-c-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="20" y="30" width="1240" height="880" as="geometry" />
+        </mxCell>
+        <mxCell id="3hQ-KrPw-ynEQigOJio7-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="20" y="30" width="1240" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="3hQ-KrPw-ynEQigOJio7-3" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.simpleIcon;strokeColor=#999999;" parent="1" vertex="1">
+          <mxGeometry x="40" y="51.5" width="200" height="98.5" as="geometry" />
+        </mxCell>
+        <mxCell id="3hQ-KrPw-ynEQigOJio7-4" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Fecha Inicial&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;DD-MM-AAA - HH:MM:SS&lt;/font&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="35.75" width="150" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="3hQ-KrPw-ynEQigOJio7-5" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Fecha Final&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;DD-MM-AAA - HH:MM:SS&lt;/font&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="100.75" width="150" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="3hQ-KrPw-ynEQigOJio7-6" value="Infraestructura Visible - Aeropuertos y su Historia" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=3;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="250" y="57" width="660" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="klTSi4l67j6J6eVOn15z-1" value="Departamento" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.comboBox;strokeColor=#999999;fillColor=#ddeeff;align=left;fillColor2=#aaddff;mainText=;fontColor=#666666;fontSize=17;spacingLeft=3;" vertex="1" parent="1">
+          <mxGeometry x="40" y="210" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="klTSi4l67j6J6eVOn15z-2" value="Municipio" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.comboBox;strokeColor=#999999;fillColor=#ddeeff;align=left;fillColor2=#aaddff;mainText=;fontColor=#666666;fontSize=17;spacingLeft=3;" vertex="1" parent="1">
+          <mxGeometry x="40" y="260" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="klTSi4l67j6J6eVOn15z-3" value="Aeropuerto Origen" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.comboBox;strokeColor=#999999;fillColor=#ddeeff;align=left;fillColor2=#aaddff;mainText=;fontColor=#666666;fontSize=17;spacingLeft=3;" vertex="1" parent="1">
+          <mxGeometry x="40" y="310" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="klTSi4l67j6J6eVOn15z-4" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.pieChart;strokeColor=#008cff;parts=10,20,35;partColors=#e0e0e0,#d0d0d0,#c0c0c0,#b0b0b0,#a0a0a0;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="50" y="640" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="klTSi4l67j6J6eVOn15z-5" value="Distribución de Destinos de los Aeropuertos Seleccionado" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="55" y="840" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="klTSi4l67j6J6eVOn15z-7" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.columnChart;strokeColor=none;strokeColor2=none;strokeColor3=#666666;fillColor2=#008cff;fillColor3=#dddddd;" vertex="1" parent="1">
+          <mxGeometry x="340" y="180" width="870" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="klTSi4l67j6J6eVOn15z-8" value="Total de Asientos, Pasajero, Total de Carga movida y disponible de los Aeropuertos seccionados" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="455" y="510" width="640" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="klTSi4l67j6J6eVOn15z-10" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.columnChart;strokeColor=none;strokeColor2=none;strokeColor3=#666666;fillColor2=#008cff;fillColor3=#dddddd;" vertex="1" parent="1">
+          <mxGeometry x="340" y="640" width="330" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="klTSi4l67j6J6eVOn15z-11" value="Acumulados de Tipos de Vuelo y Tipo de Trafico de los Aeropuertos Seleccioandos" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="385" y="840" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="klTSi4l67j6J6eVOn15z-12" value="Rangos de Ancho de Pista" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.comboBox;strokeColor=#999999;fillColor=#ddeeff;align=left;fillColor2=#aaddff;mainText=;fontColor=#666666;fontSize=17;spacingLeft=3;" vertex="1" parent="1">
+          <mxGeometry x="40" y="360" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="klTSi4l67j6J6eVOn15z-13" value="Rangos de Longitud de Pista" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.comboBox;strokeColor=#999999;fillColor=#ddeeff;align=left;fillColor2=#aaddff;mainText=;fontColor=#666666;fontSize=17;spacingLeft=3;" vertex="1" parent="1">
+          <mxGeometry x="40" y="410" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="klTSi4l67j6J6eVOn15z-14" value="Clase" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.comboBox;strokeColor=#999999;fillColor=#ddeeff;align=left;fillColor2=#aaddff;mainText=;fontColor=#666666;fontSize=17;spacingLeft=3;" vertex="1" parent="1">
+          <mxGeometry x="40" y="460" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="klTSi4l67j6J6eVOn15z-15" value="Tipo" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.comboBox;strokeColor=#999999;fillColor=#ddeeff;align=left;fillColor2=#aaddff;mainText=;fontColor=#666666;fontSize=17;spacingLeft=3;" vertex="1" parent="1">
+          <mxGeometry x="40" y="510" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="klTSi4l67j6J6eVOn15z-16" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.pieChart;strokeColor=#008cff;parts=10,20,35;partColors=#e0e0e0,#d0d0d0,#c0c0c0,#b0b0b0,#a0a0a0;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="720" y="640" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="klTSi4l67j6J6eVOn15z-17" value="Distribución de Clases de los Aeropuertos Seleccionados" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="735" y="840" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="klTSi4l67j6J6eVOn15z-18" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.pieChart;strokeColor=#008cff;parts=10,20,35;partColors=#e0e0e0,#d0d0d0,#c0c0c0,#b0b0b0,#a0a0a0;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="630" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="klTSi4l67j6J6eVOn15z-19" value="Distribución de Tipo de los Aeropuertos Seleccionados" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1025" y="830" width="170" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

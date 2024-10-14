@@ -1,0 +1,423 @@
+<mxfile host="app.diagrams.net" modified="2024-07-09T03:16:06.750Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="RvTuNwCflIyERwvBpeTm" version="24.6.4" type="device" pages="2">
+  <diagram name="Página-1" id="N2-zhjFlQqDtDkERAfEA">
+    <mxGraphModel dx="25" dy="641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QkNNOTyCgOV7M9l8Czh6-3" value="Fecha" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="20" width="640" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KRuHNcsuFezPyRGAMjel-1" value="3. Carga deDatos" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="1460" y="490" width="380" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="KRuHNcsuFezPyRGAMjel-2" value="&lt;div&gt;&lt;b style=&quot;text-align: left; background-color: initial;&quot;&gt;Destino de Datos:&lt;/b&gt;&lt;br&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Tabla: G5_Fecha.&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;Campos:&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;ID_Fecha.&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Mes.&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Anio.&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Dia&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;glass=0;shadow=0;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="1495" y="530" width="310" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="KRuHNcsuFezPyRGAMjel-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="KRuHNcsuFezPyRGAMjel-3" target="KRuHNcsuFezPyRGAMjel-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KRuHNcsuFezPyRGAMjel-3" value="1. Extraer Información de Fecha" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="1460" y="80" width="380" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="KRuHNcsuFezPyRGAMjel-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.997;entryY=0.465;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="KRuHNcsuFezPyRGAMjel-4" target="KRuHNcsuFezPyRGAMjel-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KRuHNcsuFezPyRGAMjel-4" value="Extraer Fecha" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="1560" y="115" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KRuHNcsuFezPyRGAMjel-5" value="&lt;b&gt;Fuente de Datos:&lt;/b&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Tabla: Vuelos.&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;Campos:&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;ano.&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;mes&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;glass=0;shadow=0;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="80" width="240" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="KRuHNcsuFezPyRGAMjel-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="KRuHNcsuFezPyRGAMjel-7" target="KRuHNcsuFezPyRGAMjel-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1650" y="870" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KRuHNcsuFezPyRGAMjel-7" value="2. Transformaciones" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="1460" y="220" width="380" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="KRuHNcsuFezPyRGAMjel-8" value="T3. Generar columna ID_Fecha con un Entero que se combina con los digitos del año y la fecha" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1485" y="390" width="330" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KRuHNcsuFezPyRGAMjel-9" value="T1. Eliminar Duplicados por Mes y Año." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1485" y="250" width="330" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KRuHNcsuFezPyRGAMjel-12" value="T2: Transformar mes al formato esperado de 2 digitos" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1485" y="320" width="330" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7o-lEUug4-zK-2lAT_Sw-1" value="Hecho PIB" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1860" y="20" width="640" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7o-lEUug4-zK-2lAT_Sw-2" value="3. Carga deDatos" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="2120" y="500" width="380" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="7o-lEUug4-zK-2lAT_Sw-3" value="&lt;div&gt;&lt;b style=&quot;text-align: left; background-color: initial;&quot;&gt;Destino de Datos:&lt;/b&gt;&lt;br&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Tabla: G5_HechoPIB&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;Campos:&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Departamento_ID_IV&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Fecha_ID&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;PIB(Total)&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;glass=0;shadow=0;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="2150" y="540" width="315" height="156" as="geometry" />
+        </mxCell>
+        <mxCell id="7o-lEUug4-zK-2lAT_Sw-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="7o-lEUug4-zK-2lAT_Sw-5" target="7o-lEUug4-zK-2lAT_Sw-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7o-lEUug4-zK-2lAT_Sw-5" value="1. Extraer Información de Tablas" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="2120" y="80" width="380" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="7o-lEUug4-zK-2lAT_Sw-7" value="Extraer PIB&lt;div&gt;Extraer Fecha&lt;/div&gt;&lt;div&gt;Extraer Departamentos Generada&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="2222.5" y="107.5" width="170" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="7o-lEUug4-zK-2lAT_Sw-8" value="&lt;b&gt;Fuente de Datos:&lt;/b&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Tabla: PIB&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Tabla: Fecha Generada&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Tabla: Departamentos Generada&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;Campos:&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;CodigoDepartamento.&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;NombreDepartamento&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;2005&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;2006&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;2007&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;2008&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;2009&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;2010&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;2011&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;2012&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;2013&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;2014&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;2015&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;2016&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;2017&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Fecha_ID&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Anio&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Departamento_ID_IV&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Departamento_ID&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Nombre&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;glass=0;shadow=0;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="1860" y="80" width="220" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="7o-lEUug4-zK-2lAT_Sw-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="7o-lEUug4-zK-2lAT_Sw-10" target="7o-lEUug4-zK-2lAT_Sw-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2310" y="870" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7o-lEUug4-zK-2lAT_Sw-10" value="2. Transformaciones" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="2120" y="220" width="380" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="7o-lEUug4-zK-2lAT_Sw-12" value="T1. Eliminar Duplicados Totales de PIB" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2142.5" y="250" width="335" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7o-lEUug4-zK-2lAT_Sw-14" value="T2. Consolidar PIB total de cada columna año en una nueva fila tomando una fecha de la tabla Fecha y un departamento_ID, es decir se crean nuevos registros por cada departamento con un año y valor total que sera una columna nueva" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2142.5" y="315" width="335" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="p3QL3h3g1X1L-Odg_reT-1" value="T3: Eliminar las columnas de años 2005-2017" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2142.5" y="400" width="335" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p3QL3h3g1X1L-Odg_reT-5" value="Municipio" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="2520" y="20" width="640" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p3QL3h3g1X1L-Odg_reT-6" value="3. Carga deDatos" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="2780" y="470" width="380" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="p3QL3h3g1X1L-Odg_reT-7" value="&lt;div&gt;&lt;b style=&quot;text-align: left; background-color: initial;&quot;&gt;Destino de Datos:&lt;/b&gt;&lt;br&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Tabla: G5_Municipios&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;Campos:&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Municipio_ID_IV.&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Municipio_ID.&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Nombre&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;glass=0;shadow=0;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="2810" y="510" width="315" height="156" as="geometry" />
+        </mxCell>
+        <mxCell id="p3QL3h3g1X1L-Odg_reT-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="p3QL3h3g1X1L-Odg_reT-9" target="p3QL3h3g1X1L-Odg_reT-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p3QL3h3g1X1L-Odg_reT-9" value="1. Extraer Información de Tablas" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="2780" y="80" width="380" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="p3QL3h3g1X1L-Odg_reT-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="p3QL3h3g1X1L-Odg_reT-11" target="p3QL3h3g1X1L-Odg_reT-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p3QL3h3g1X1L-Odg_reT-11" value="Extraer Datos de Municipio" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="2882.5" y="107.5" width="170" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="p3QL3h3g1X1L-Odg_reT-12" value="&lt;b&gt;Fuente de Datos:&lt;/b&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Tabla: Divipola&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;Campos:&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;CodigoMunicipio.&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;NombreMunicipio&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;glass=0;shadow=0;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="2520" y="80" width="220" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="p3QL3h3g1X1L-Odg_reT-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="p3QL3h3g1X1L-Odg_reT-14" target="p3QL3h3g1X1L-Odg_reT-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2970" y="860" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p3QL3h3g1X1L-Odg_reT-14" value="2. Transformaciones" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="2780" y="210" width="380" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="p3QL3h3g1X1L-Odg_reT-15" value="T1. Eliminar Duplicados Totales deacuerdo a la columna de Código de Municipio" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2802.5" y="240" width="335" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p3QL3h3g1X1L-Odg_reT-16" value="T2. Darle el formato esperado a la información." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2802.5" y="305" width="335" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p3QL3h3g1X1L-Odg_reT-17" value="T3: Crear Registro con ID 0 para aeropuertos Internacionales con valores por defecto." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2802.5" y="370" width="335" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p3QL3h3g1X1L-Odg_reT-19" value="Hecho Aeropuerto Historico" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="750" width="640" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p3QL3h3g1X1L-Odg_reT-20" value="3. Carga deDatos" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="1460" y="1190" width="380" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="p3QL3h3g1X1L-Odg_reT-21" value="&lt;div&gt;&lt;b style=&quot;text-align: left; background-color: initial;&quot;&gt;Destino de Datos:&lt;/b&gt;&lt;br&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Tabla: G5_HechoAeropuertoHistorico&lt;/li&gt;&lt;/ul&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;Campos:&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Sigla&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Fecha_Info_ID&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Departamento_ID&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Municipio_ID.&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Longitud_Pista&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Ancho_Pista&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Numero_Vuelos_Origen&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Valido&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;glass=0;shadow=0;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="1492.5" y="1220" width="315" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="p3QL3h3g1X1L-Odg_reT-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="p3QL3h3g1X1L-Odg_reT-23" target="p3QL3h3g1X1L-Odg_reT-28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p3QL3h3g1X1L-Odg_reT-23" value="1. Extraer Información de Tablas" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="1460" y="810" width="380" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="p3QL3h3g1X1L-Odg_reT-25" value="Extraer Datos de Variables de Aeropuertos" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="1562.5" y="837.5" width="170" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="p3QL3h3g1X1L-Odg_reT-26" value="&lt;b&gt;Fuente de Datos:&lt;/b&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Tabla: Aeropuertos&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;Campos:&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;sigla&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Anio&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;gcd_departamento&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;gcd_municipio&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;numero_vuelos_origen&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;longitud_pista&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;ancho_pista&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;glass=0;shadow=0;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="812" width="220" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="p3QL3h3g1X1L-Odg_reT-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="p3QL3h3g1X1L-Odg_reT-28" target="p3QL3h3g1X1L-Odg_reT-20" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1650" y="1585" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p3QL3h3g1X1L-Odg_reT-28" value="2. Transformaciones" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="1460" y="935" width="380" height="225" as="geometry" />
+        </mxCell>
+        <mxCell id="p3QL3h3g1X1L-Odg_reT-29" value="T1. Eliminar Duplicados Totales deacuerdo a la columna Sigla" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1482.5" y="965" width="335" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p3QL3h3g1X1L-Odg_reT-30" value="T2. Darle el formato esperado a la información." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1482.5" y="1030" width="335" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p3QL3h3g1X1L-Odg_reT-32" value="T3. Corregir Campo de Anio por Fecha_Info_ID." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1482.5" y="1095" width="335" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ubUgCDe-K2vhHDp4Me_q-1" value="Aeropuerto" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1860" y="750" width="640" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ubUgCDe-K2vhHDp4Me_q-2" value="3. Carga deDatos" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="2120" y="1327" width="380" height="343" as="geometry" />
+        </mxCell>
+        <mxCell id="ubUgCDe-K2vhHDp4Me_q-3" value="&lt;div&gt;&lt;b style=&quot;text-align: left; background-color: initial;&quot;&gt;Destino de Datos:&lt;/b&gt;&lt;br&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Tabla: G5_Aeropuerto&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;Campos:&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Aeropuerto_ID_IV.&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Sigla&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Nombre&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Tipo&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Inauguración&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Latitud&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Longitud&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Elevacion&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Resolucion&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Clase&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Tipo&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;glass=0;shadow=0;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="2150" y="1367" width="315" height="283" as="geometry" />
+        </mxCell>
+        <mxCell id="ubUgCDe-K2vhHDp4Me_q-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ubUgCDe-K2vhHDp4Me_q-5" target="ubUgCDe-K2vhHDp4Me_q-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ubUgCDe-K2vhHDp4Me_q-5" value="1. Extraer Información de Tablas" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="2120" y="810" width="380" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ubUgCDe-K2vhHDp4Me_q-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.012;entryY=0.204;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="ubUgCDe-K2vhHDp4Me_q-7" target="ubUgCDe-K2vhHDp4Me_q-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ubUgCDe-K2vhHDp4Me_q-7" value="Extraer Datos de Aeropuertos" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="2222.5" y="837.5" width="170" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ubUgCDe-K2vhHDp4Me_q-8" value="&lt;b&gt;Fuente de Datos:&lt;/b&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;&quot;&gt;Tabla: Aeropuertos&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;Campos:&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;sigla&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;nombre&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;categoria&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;fecha_construccion&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;latitud&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;longitud&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;elevacion&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;resolucion&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;clase&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;tipo&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;glass=0;shadow=0;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="1860" y="811" width="220" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="ubUgCDe-K2vhHDp4Me_q-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ubUgCDe-K2vhHDp4Me_q-10" target="ubUgCDe-K2vhHDp4Me_q-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2310" y="1297" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ubUgCDe-K2vhHDp4Me_q-10" value="2. Transformaciones" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="2120" y="940" width="380" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="ubUgCDe-K2vhHDp4Me_q-11" value="T1. Eliminar Duplicados Totales deacuerdo a la columna&amp;nbsp; Sigla." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2142.5" y="970" width="335" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ubUgCDe-K2vhHDp4Me_q-12" value="T2. Corregir la información del campo elevacion de los aeropuertos que tengan una elevación igual a 0." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2142.5" y="1035" width="335" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ubUgCDe-K2vhHDp4Me_q-13" value="T3. Corregir la información del campo resolucion de los aeropuertos que tengan dicho campo vacio." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2142.5" y="1100" width="335" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ubUgCDe-K2vhHDp4Me_q-15" value="T4. Corregir la información del campo clase de los aeropuertos que tengan dicho campo vacio." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2142.5" y="1163" width="335" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ubUgCDe-K2vhHDp4Me_q-16" value="T5. Corregir la información del campo tipo de los aeropuertos que tengan dicho campo vacio." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2142.5" y="1226" width="335" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ubUgCDe-K2vhHDp4Me_q-17" value="Hecho Vuelo" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="2520" y="750" width="640" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ubUgCDe-K2vhHDp4Me_q-18" value="3. Carga deDatos" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="2777.5" y="1390" width="380" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="ubUgCDe-K2vhHDp4Me_q-19" value="&lt;div&gt;&lt;b style=&quot;text-align: left; background-color: initial;&quot;&gt;Destino de Datos:&lt;/b&gt;&lt;br&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Tabla: G5_HechoVuelo&lt;/li&gt;&lt;/ul&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;Campos:&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Fecha_ID&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Aero_Origen_Sigla&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Depto_Origen_ID&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;Aero_Destino_Sigla&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;Depto_Destino_ID&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;Pasajeros_T&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;Pasajeros_D&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;Carga_T&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;Carga_D&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;Trafico&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;glass=0;shadow=0;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="2810" y="1436" width="315" height="254" as="geometry" />
+        </mxCell>
+        <mxCell id="ubUgCDe-K2vhHDp4Me_q-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ubUgCDe-K2vhHDp4Me_q-21" target="ubUgCDe-K2vhHDp4Me_q-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ubUgCDe-K2vhHDp4Me_q-21" value="1. Extraer Información de Tablas" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="2780" y="810" width="380" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ubUgCDe-K2vhHDp4Me_q-23" value="Extraer Datos de Vuelos y Aeropuertos" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="2882.5" y="837.5" width="170" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ubUgCDe-K2vhHDp4Me_q-24" value="&lt;b&gt;Fuente de Datos:&lt;/b&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Tabla: Vuelos y Aeropuertos&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;Campos:&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;ul&gt;&lt;li style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;anio&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;mes&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;sigla&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;origen&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;destino&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;gcd_departamento&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;pasajeros&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;sillas&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;carga_ofrecida&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;carga_bordo&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;trafico&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;glass=0;shadow=0;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="2520" y="810" width="220" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="ubUgCDe-K2vhHDp4Me_q-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.492;exitY=0.994;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="ubUgCDe-K2vhHDp4Me_q-26" target="ubUgCDe-K2vhHDp4Me_q-18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2967.5" y="1297" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ubUgCDe-K2vhHDp4Me_q-26" value="2. Transformaciones" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="2780" y="935" width="380" height="425" as="geometry" />
+        </mxCell>
+        <mxCell id="ubUgCDe-K2vhHDp4Me_q-27" value="T1. Eliminar Duplicados Totales de los vuelos que tengan&amp;nbsp; la misma información en las diferentes columnas" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2802.5" y="965" width="335" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ubUgCDe-K2vhHDp4Me_q-28" value="T2. Transformar la información de la columna origen a mayúscula." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2802.5" y="1030" width="335" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ubUgCDe-K2vhHDp4Me_q-29" value="T3. Transformar la información de la columna destino a mayúscula." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2802.5" y="1095" width="335" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ubUgCDe-K2vhHDp4Me_q-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.007;entryY=0.173;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="ubUgCDe-K2vhHDp4Me_q-23" target="ubUgCDe-K2vhHDp4Me_q-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ubUgCDe-K2vhHDp4Me_q-31" value="T4. Calcular la información de la columna Pasajeros_D con la formula (sillas - pasajeros)." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2802.5" y="1160" width="335" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ubUgCDe-K2vhHDp4Me_q-32" value="T5. Calcular la información de la columna Carga_D con la formula (carga_ofrecida - carga_bordo)." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2802.5" y="1220" width="335" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ubUgCDe-K2vhHDp4Me_q-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.009;entryY=0.234;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="p3QL3h3g1X1L-Odg_reT-25" target="p3QL3h3g1X1L-Odg_reT-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ubUgCDe-K2vhHDp4Me_q-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.01;entryY=0.149;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="7o-lEUug4-zK-2lAT_Sw-7" target="7o-lEUug4-zK-2lAT_Sw-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ubUgCDe-K2vhHDp4Me_q-35" value="T6. Corregir Campo de Anio y Mes por Fecha_ID." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2802.5" y="1280" width="335" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ofPkR1MNvGQV1S9oAqV1-1" value="Departamento" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="1780" width="640" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ofPkR1MNvGQV1S9oAqV1-2" value="3. Carga deDatos" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="1460" y="2290" width="380" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="ofPkR1MNvGQV1S9oAqV1-3" value="&lt;div&gt;&lt;b style=&quot;text-align: left; background-color: initial;&quot;&gt;Destino de Datos:&lt;/b&gt;&lt;br&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Tabla: G5_Departamento&lt;/li&gt;&lt;/ul&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;Campos:&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Departamento_ID_IV&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Departamento_ID&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Departamento&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;glass=0;shadow=0;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="1492.5" y="2336" width="315" height="154" as="geometry" />
+        </mxCell>
+        <mxCell id="ofPkR1MNvGQV1S9oAqV1-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ofPkR1MNvGQV1S9oAqV1-5" target="ofPkR1MNvGQV1S9oAqV1-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ofPkR1MNvGQV1S9oAqV1-5" value="1. Extraer Información de Tablas" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="1460" y="1840" width="380" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ofPkR1MNvGQV1S9oAqV1-6" value="Extraer Datos de Departamentos" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="1562.5" y="1867.5" width="170" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ofPkR1MNvGQV1S9oAqV1-7" value="&lt;b style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Fuente de Datos:&lt;/font&gt;&lt;/b&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Tabla: Divipola&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;br style=&quot;&quot;&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Campos:&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;CodigoDepartamento&lt;br style=&quot;&quot;&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;NombreDepartamento&lt;br style=&quot;&quot;&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Campos No Usados:&lt;/font&gt;&lt;/b&gt;&lt;ul style=&quot;font-size: 9px;&quot;&gt;&lt;li style=&quot;text-align: left; font-size: 9px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 9px;&quot;&gt;CodigoMunicipio&lt;/span&gt;&lt;br style=&quot;font-size: 9px;&quot;&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left; font-size: 9px;&quot;&gt;CodigoCentroPoblado&lt;/li&gt;&lt;li style=&quot;text-align: left; font-size: 9px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 9px;&quot;&gt;NombreMunicipio&lt;/span&gt;&lt;br style=&quot;font-size: 9px;&quot;&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left; font-size: 9px;&quot;&gt;NombreCentroPoblado&lt;/li&gt;&lt;li style=&quot;text-align: left; font-size: 9px;&quot;&gt;TipoCentroPoblado&lt;/li&gt;&lt;li style=&quot;text-align: left; font-size: 9px;&quot;&gt;Longitud&lt;/li&gt;&lt;li style=&quot;text-align: left; font-size: 9px;&quot;&gt;Latitud&lt;/li&gt;&lt;li style=&quot;text-align: left; font-size: 9px;&quot;&gt;Nombre Distrito&lt;/li&gt;&lt;li style=&quot;text-align: left; font-size: 9px;&quot;&gt;Municipio/AreasNoMunicipalizadas(ANM)&lt;/li&gt;&lt;li style=&quot;text-align: left; font-size: 9px;&quot;&gt;NombreAreaMetropolitana&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;glass=0;shadow=0;align=center;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="1840" width="220" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="ofPkR1MNvGQV1S9oAqV1-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.492;exitY=0.994;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="ofPkR1MNvGQV1S9oAqV1-9" target="ofPkR1MNvGQV1S9oAqV1-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1647.5" y="2327" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ofPkR1MNvGQV1S9oAqV1-9" value="2. Transformaciones" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="1460" y="1965" width="380" height="295" as="geometry" />
+        </mxCell>
+        <mxCell id="ofPkR1MNvGQV1S9oAqV1-10" value="T1. Transformar la información de la columna NombreDepartamento a mayúscula." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1482.5" y="1995" width="335" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ofPkR1MNvGQV1S9oAqV1-11" value="T2.&amp;nbsp;Extraer todos los Departamentos diferentes que se encuentren en la tabla basado en las columnas (CodigoDepartamento y NombreDepartamento)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1482.5" y="2060" width="335" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ofPkR1MNvGQV1S9oAqV1-12" value="T3. Ordenar la Informacion resultante por la columna CodigoDepartamento." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1482.5" y="2125" width="335" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ofPkR1MNvGQV1S9oAqV1-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.007;entryY=0.173;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="ofPkR1MNvGQV1S9oAqV1-6" target="ofPkR1MNvGQV1S9oAqV1-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ofPkR1MNvGQV1S9oAqV1-17" value="Hecho Proyeccion" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1860" y="1780" width="640" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ofPkR1MNvGQV1S9oAqV1-18" value="3. Carga deDatos" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="2120" y="2640" width="380" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="ofPkR1MNvGQV1S9oAqV1-19" value="&lt;div&gt;&lt;b style=&quot;text-align: left; background-color: initial;&quot;&gt;Destino de Datos:&lt;/b&gt;&lt;br&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Tabla: G5_Hecho Proyeccion&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;Campos:&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Proyeccion_ID_IV&amp;nbsp;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Fecha_ID&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Departamento_ID_IV&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Edad&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Genero&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Total.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;glass=0;shadow=0;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="2150" y="2680" width="315" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ofPkR1MNvGQV1S9oAqV1-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ofPkR1MNvGQV1S9oAqV1-21" target="ofPkR1MNvGQV1S9oAqV1-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ofPkR1MNvGQV1S9oAqV1-21" value="1. Extraer Información de Tablas" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="2120" y="1840" width="380" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ofPkR1MNvGQV1S9oAqV1-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.012;entryY=0.204;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="ofPkR1MNvGQV1S9oAqV1-23" target="ofPkR1MNvGQV1S9oAqV1-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ofPkR1MNvGQV1S9oAqV1-23" value="Extraer Datos de Proyecciones" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="2222.5" y="1867.5" width="170" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ofPkR1MNvGQV1S9oAqV1-24" value="&lt;b&gt;Fuente de Datos:&lt;/b&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;&quot;&gt;Tabla: Proyecciones y G5_Departamento&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;Campos:&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Hombres_#&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Mujeres_#&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;AÑO&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;DP&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Departamentos.Departamento_ID_DWH&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;glass=0;shadow=0;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="1860" y="1841" width="220" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="ofPkR1MNvGQV1S9oAqV1-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ofPkR1MNvGQV1S9oAqV1-26" target="ofPkR1MNvGQV1S9oAqV1-18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2310" y="2590" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ofPkR1MNvGQV1S9oAqV1-26" value="2. Transformaciones" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="2120" y="1970" width="380" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="ofPkR1MNvGQV1S9oAqV1-27" value="T1. Crear DF_Hombres con los datos trasnspuestos de las columnas&amp;nbsp; Hombres_# del numero 0 al&amp;nbsp; 100, generando una estructura de Año, DP, Edad, Total" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2142.5" y="2000" width="335" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ofPkR1MNvGQV1S9oAqV1-28" value="T2. Agregar al DF_Hombres una columna Genero con el valor M (Masculino)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2142.5" y="2065" width="335" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ofPkR1MNvGQV1S9oAqV1-29" value="T3. Crear DF_Mujeres con los datos trasnspuestos de las columnas&amp;nbsp; Mujeres_# del numero 0 al&amp;nbsp; 100, generando una estructura de Año, DP, Edad, Total" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2142.5" y="2130" width="335" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ofPkR1MNvGQV1S9oAqV1-30" value="T4. Agregar al DF_Hombres una columna Genero con el valor F (Femenino)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2142.5" y="2193" width="335" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ofPkR1MNvGQV1S9oAqV1-31" value="T5. Unir los dos Datafrramen en uno solo resultante." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2142.5" y="2256" width="335" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ofPkR1MNvGQV1S9oAqV1-32" value="T4. Generar Columna&amp;nbsp;&lt;span style=&quot;text-align: left; background-color: initial;&quot;&gt;Departamento_ID_IV&lt;/span&gt;&lt;br&gt;&amp;nbsp;Con un consecutivo de&amp;nbsp; los registros resultantes." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1482.5" y="2190" width="335" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ofPkR1MNvGQV1S9oAqV1-33" value="T6. Eliminar los datos duplicados del dataframe final" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2142.5" y="2320" width="335" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ofPkR1MNvGQV1S9oAqV1-34" value="T7. Basado en el dataframe final, seleccionar la Columna Año y convertirla en formato YYYYMM, dejando para todos los registros el Mes 01." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2142.5" y="2390" width="335" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ofPkR1MNvGQV1S9oAqV1-35" value="T8. Obtener el Fecha_ID haciendo Join de la Fecha calculada en transformacion T6.." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2142.5" y="2460" width="335" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ofPkR1MNvGQV1S9oAqV1-36" value="T9. Generar Columna&amp;nbsp;&lt;span style=&quot;background-color: initial; text-align: left;&quot;&gt;Proyeccion_ID_IV&lt;/span&gt;&lt;br&gt;&amp;nbsp;Con un consecutivo de&amp;nbsp; los registros resultantes" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2142.5" y="2530" width="335" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="HFcBwwevGP1G3p3NpDOI" name="Página-2">
+    <mxGraphModel dx="-70" dy="676" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="iU0TdhMlgEEw6ftC_Le_-1" value="Divipola" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="20" width="640" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iU0TdhMlgEEw6ftC_Le_-2" value="3. Carga deDatos" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="490" width="380" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="iU0TdhMlgEEw6ftC_Le_-3" value="&lt;div&gt;&lt;b style=&quot;text-align: left; background-color: initial;&quot;&gt;Destino de Datos:&lt;/b&gt;&lt;br&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Tabla: G5_Fecha.&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;Campos:&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;ID_Fecha.&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Mes.&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Anio.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;glass=0;shadow=0;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1495" y="530" width="310" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="iU0TdhMlgEEw6ftC_Le_-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iU0TdhMlgEEw6ftC_Le_-5" target="iU0TdhMlgEEw6ftC_Le_-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iU0TdhMlgEEw6ftC_Le_-5" value="1. Extraer Información de Fecha" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="80" width="380" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="iU0TdhMlgEEw6ftC_Le_-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iU0TdhMlgEEw6ftC_Le_-7" target="iU0TdhMlgEEw6ftC_Le_-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iU0TdhMlgEEw6ftC_Le_-7" value="Extraer Fecha" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="115" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iU0TdhMlgEEw6ftC_Le_-8" value="&lt;b&gt;Fuente de Datos:&lt;/b&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Tabla: Vuelos.&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;Campos:&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;ano.&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;mes&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;glass=0;shadow=0;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="80" width="240" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="iU0TdhMlgEEw6ftC_Le_-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iU0TdhMlgEEw6ftC_Le_-10" target="iU0TdhMlgEEw6ftC_Le_-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1650" y="870" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iU0TdhMlgEEw6ftC_Le_-10" value="2. Transformaciones" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="220" width="380" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="iU0TdhMlgEEw6ftC_Le_-11" value="T3. Agregar columna ID_Fecha." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1485" y="390" width="330" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iU0TdhMlgEEw6ftC_Le_-12" value="T1. Eliminar Duplicados por Mes y Año." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1485" y="250" width="330" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iU0TdhMlgEEw6ftC_Le_-13" value="T2: Transformar datos erróneos al Formato esperado." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1485" y="320" width="330" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

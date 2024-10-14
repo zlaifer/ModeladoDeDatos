@@ -1,0 +1,88 @@
+<mxfile host="Electron" modified="2024-07-23T02:40:01.151Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="SnuAZCBgAnkasr9vHBlZ" version="22.0.2" type="device">
+  <diagram name="Página-1" id="Z4GrNal1tBqodtYZbD51">
+    <mxGraphModel dx="1434" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5ksZAa2o2RdJJdmaY0gx-1" value="&lt;div&gt;Resultado esperado&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&#x9;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;El obejtivo de este reporte es facilitar a los usuarios del area operativa tener la informacion real de los vuelos realizados en un rango de tiempo, donde logren observar el total de pasajeros transportados y la carga transpotada Vs la disponibilidad de sillas&amp;nbsp; y capacidad de carga en los vuelos realizados, con el fin de identificar variaciones como incrementos de demanda en algunos periodos de tiempo, asi como ver los aeropuertos con mayor trafico de pasajeros o de carga y con identificar mejoras en procesos, infraestructura entre otros.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;container=0;align=left;verticalAlign=top;textShadow=0;" parent="1" vertex="1">
+          <mxGeometry x="30" y="100" width="550" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5ksZAa2o2RdJJdmaY0gx-2" value="Data Storytelling Canvas" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;container=0;" parent="1" vertex="1">
+          <mxGeometry x="30" y="20" width="1100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5ksZAa2o2RdJJdmaY0gx-3" value="Audiencia" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=18;fillColor=#e1d5e7;strokeColor=#9673a6;container=0;" parent="1" vertex="1">
+          <mxGeometry x="580" y="60" width="550" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5ksZAa2o2RdJJdmaY0gx-4" value="&lt;div&gt;Gerentes operativos de Aerolineas&lt;/div&gt;&lt;div&gt;Gerentes operativos de la aerocivil o consecionarios de los aeropuertos.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;container=0;align=left;verticalAlign=top;textShadow=0;" parent="1" vertex="1">
+          <mxGeometry x="580" y="100" width="550" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5ksZAa2o2RdJJdmaY0gx-5" value="Objetivo" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=18;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" parent="1" vertex="1">
+          <mxGeometry x="30" y="60" width="550" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5ksZAa2o2RdJJdmaY0gx-6" value="Inicio" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontStyle=1;fillColor=#fff2cc;strokeColor=#d6b656;container=0;" parent="1" vertex="1">
+          <mxGeometry x="30" y="220" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5ksZAa2o2RdJJdmaY0gx-7" value="Medio" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontStyle=1;fillColor=#ffe6cc;strokeColor=#d79b00;container=0;" parent="1" vertex="1">
+          <mxGeometry x="330" y="220" width="500" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5ksZAa2o2RdJJdmaY0gx-8" value="Conclusión" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;container=0;" parent="1" vertex="1">
+          <mxGeometry x="830" y="220" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5ksZAa2o2RdJJdmaY0gx-9" value="&lt;div&gt;Momento del conocimiento Vs. Momento del Aha&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&#x9;&#x9;&#x9;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;En este tablero podemos comparar por ciudades - aeropuertos la cantidad de pasajeros y carga transportada vs la cadacidad disponible en la infraestructura, eso nos permitira poder ver si se requiere alguna mejora de infraestructura o de los procesos actuales, permitir la entrada de operacion de otras aerolineas, o como aerolinea buscar la entrada en operacion con otro trayecto de interes.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;container=0;align=left;verticalAlign=top;textShadow=0;" parent="1" vertex="1">
+          <mxGeometry x="330" y="260" width="500" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="5ksZAa2o2RdJJdmaY0gx-10" value="Presentación de Datos" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontStyle=1;fillColor=#d0cee2;strokeColor=#56517e;container=0;" parent="1" vertex="1">
+          <mxGeometry x="330" y="410" width="500" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5ksZAa2o2RdJJdmaY0gx-11" value="Evolución" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fontStyle=1;fillColor=#b0e3e6;strokeColor=#0e8088;container=0;" parent="1" vertex="1">
+          <mxGeometry x="330" y="450" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5ksZAa2o2RdJJdmaY0gx-12" value="Comparación" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fontStyle=1;fillColor=#b0e3e6;strokeColor=#0e8088;container=0;" parent="1" vertex="1">
+          <mxGeometry x="430" y="450" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5ksZAa2o2RdJJdmaY0gx-14" value="Relación" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fontStyle=1;fillColor=#b0e3e6;strokeColor=#0e8088;container=0;" parent="1" vertex="1">
+          <mxGeometry x="530" y="450" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5ksZAa2o2RdJJdmaY0gx-15" value="Descomposición" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fontStyle=1;fillColor=#b0e3e6;strokeColor=#0e8088;container=0;" parent="1" vertex="1">
+          <mxGeometry x="630" y="450" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5ksZAa2o2RdJJdmaY0gx-16" value="Distribución" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fontStyle=1;fillColor=#b0e3e6;strokeColor=#0e8088;container=0;" parent="1" vertex="1">
+          <mxGeometry x="730" y="450" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5ksZAa2o2RdJJdmaY0gx-17" value="Grafica de barras por año y por mes para mostrar los vuelos realizados por aeropuertos" style="rounded=0;whiteSpace=wrap;html=1;container=0;align=center;verticalAlign=top;textShadow=0;" parent="1" vertex="1">
+          <mxGeometry x="330" y="490" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5ksZAa2o2RdJJdmaY0gx-18" value="Grafica de barras y grafica de pastel para mostrar porcentajes&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;container=0;align=center;verticalAlign=top;textShadow=0;" parent="1" vertex="1">
+          <mxGeometry x="430" y="490" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5ksZAa2o2RdJJdmaY0gx-19" value="&lt;div&gt;N/A&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;container=0;align=center;verticalAlign=top;textShadow=0;" parent="1" vertex="1">
+          <mxGeometry x="530" y="490" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5ksZAa2o2RdJJdmaY0gx-20" value="Sumatorias y promedios para mostrar totales y compararlos datos globales" style="rounded=0;whiteSpace=wrap;html=1;container=0;align=center;verticalAlign=top;textShadow=0;" parent="1" vertex="1">
+          <mxGeometry x="630" y="490" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5ksZAa2o2RdJJdmaY0gx-21" value="N/A" style="rounded=0;whiteSpace=wrap;html=1;container=0;align=center;verticalAlign=top;textShadow=0;" parent="1" vertex="1">
+          <mxGeometry x="730" y="490" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5ksZAa2o2RdJJdmaY0gx-22" value="&lt;div&gt;Aprendizajes&lt;/div&gt;&lt;div&gt;Para continuar con este analisis de pasajeros y carga el equipo de infraestructura visible puede añadir informacion relacionada al turismo, la cual permitira cotejar con la capacidad de habitaciones disponibles en una ciudad pertenecientes a hoteles o airbnb que cuenten con registro de turismo vigente.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Con esto se podra tener una analisis donde los entes territoriales puedan mejorar infraestructuras locales&amp;nbsp; para los habitantes y turistas de la region.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;container=0;align=left;verticalAlign=top;textShadow=0;" parent="1" vertex="1">
+          <mxGeometry x="830" y="260" width="300" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="5ksZAa2o2RdJJdmaY0gx-23" value="Como gerentes operativos de las aerolineas podran tener a su disposición este tablero de control que les permitira ver de forma totalizada la cantidad de pasajeros que han volado desde un aeropuerto, asi como la carga que se esta transportando en estos aviones&amp;nbsp; y a su ves diferenciar si el trafico se esta realizando de manera local o Internacional.&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;container=0;align=left;verticalAlign=top;textShadow=0;" parent="1" vertex="1">
+          <mxGeometry x="30" y="260" width="300" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="5ksZAa2o2RdJJdmaY0gx-24" value="Lista de Chequeos" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontStyle=1;fillColor=#bac8d3;strokeColor=#23445d;container=0;" parent="1" vertex="1">
+          <mxGeometry x="30" y="610" width="1100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5ksZAa2o2RdJJdmaY0gx-25" value="" style="rounded=0;whiteSpace=wrap;html=1;container=0;align=left;verticalAlign=top;textShadow=0;" parent="1" vertex="1">
+          <mxGeometry x="30" y="650" width="1100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5ksZAa2o2RdJJdmaY0gx-28" value="&lt;div&gt;&lt;/div&gt;Cumple el objetivo principal ✅&lt;div&gt;&lt;/div&gt;Animaciones incluidas ✅&lt;div&gt;&lt;/div&gt;Claro para la audiencia ✅" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="585" y="650" width="545" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5ksZAa2o2RdJJdmaY0gx-30" value="&lt;div&gt;&lt;/div&gt;Claridad del background y foreground de cada escena ✅&lt;div&gt;&lt;/div&gt;Títulos incluyen accion en todas las escenas ✅&lt;div&gt;&lt;/div&gt;Legible ✅&lt;div&gt;&lt;/div&gt;Background diferente para que aparezca silenciado - color, tamaño, agrupación ✅&lt;div style=&quot;&quot;&gt;&lt;/div&gt;Textos que guían ✅" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="30" y="650" width="545" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
